@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+h1, h2, h3{
+  font-family: Space Grotesk;
+  color: #1A2130;
+}
+
+body{
+  font-family: Space Mono;
+  background-color: #ECECEC;
+  color: #0C1844;
+  padding: 5px;
+  text-align: center;
+}
+
+li{
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #0C1844;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3 ease;
+}
+
+a:hover {
+  color: #8069ff;
+}
+
+.social-network-style{
+  font-size: 30px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card{
+  background-color: white;
+  padding: 10px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+#profile-pic{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#btn-blue{
+  padding: 5px;
+  background-color: #1A2130;
+  color: #EAEAEA;
+  border-radius: 5px;
+}
+
+#btn-blue:hover{
+  color: #8069ff;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
